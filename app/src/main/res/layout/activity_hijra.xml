@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hijra">
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gbr"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:text="Hijra S Otji"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:ellipsize="end"
+        android:maxLines="6"
+        android:text="Seorang mahasiswi yang sedang menempuh pendidikan
+S1 Teknik Informatika di Universitas Tadulako"/>
+
+</RelativeLayout>
